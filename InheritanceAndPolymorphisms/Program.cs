@@ -18,6 +18,14 @@ namespace InheritanceAndPolymorphisms
             Automobile tesla = new Automobile(4, 4f, 4, 5, 10, "red", 80.0d);
             tesla.Move();
             Console.WriteLine("Automobile " + tesla.GetDistanceTraveled());
+
+            Square square1 = new Square("square", 5);
+            square1.GetInfo();
+            Console.WriteLine(square1.Area());
+
+            Circle circle1 = new Circle("circle", 10);
+            circle1.GetInfo();
+            Console.WriteLine(circle1.Area());
         }
     }
 }
